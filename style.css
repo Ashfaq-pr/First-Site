@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    background-image: linear-gradient(90deg, #f6d104 0%, #f39108 35%, #ff6a00 100%);
+    padding: 20px;
+}
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.Button{
+    padding-right: 20%;
+    float: right;
+    margin-top: 2px;
+}
+.button{
+    margin: 10px 0;
+    background-color: #029499;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.name{
+    color: rgb(2, 148, 148);
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.image-container{
+    position: relative;
+    display: inline-block;
+}
+img{
+    width: 100%;
+    overflow-clip-margin: content-box;
+    overflow: clip; 
+}
+h1{
+    text-align: center;
+    color: rgb(2, 148, 148);
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+.discription{
+    text-align: center;
+    background-color: #029499;
+    color: white;
+    padding: 20px;
+    margin: 0px;
+    line-height: 35px;
+}
+.discription::first-letter{
+    font-size: 1.5rem;
+    color: #f39108;
+    font-weight: bold;
+}
+article{
+    padding: 10px;
+    color: #029499;
+}
+h3{
+    color: white;
+    background-color: #029499;
+    width: 100px;
+    text-align: center;
+    margin-left: 20%;
+}
+.box{
+    text-align: left;
+    background-color: #cde8e3;
+    color: #181818;
+    padding: 10px;
+    height: 100px;
+    width: 600px;
+    margin: 5px;
+    line-height: 35px;
+    overflow: scroll;
+    border: 2px solid #181818;
+}
+.right{
+    text-align: right;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
